@@ -12,6 +12,11 @@
 		8370796D2734EDE9006EE46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8370796C2734EDE9006EE46E /* Assets.xcassets */; };
 		837079702734EDE9006EE46E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8370796F2734EDE9006EE46E /* Preview Assets.xcassets */; };
 		837079782734EF6A006EE46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837079772734EF6A006EE46E /* LaunchScreen.storyboard */; };
+		8370797A2734F5FB006EE46E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837079792734F5FB006EE46E /* CardView.swift */; };
+		8370797C2734F8B8006EE46E /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8370797B2734F8B8006EE46E /* CardModel.swift */; };
+		8370797E2734F915006EE46E /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8370797D2734F915006EE46E /* CardData.swift */; };
+		837079802735079D006EE46E /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8370797F2735079D006EE46E /* sound-chime.mp3 */; };
+		83707982273507AC006EE46E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83707981273507AC006EE46E /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8370796F2734EDE9006EE46E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		837079762734EF29006EE46E /* Learn-by-Doing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Learn-by-Doing-Info.plist"; sourceTree = SOURCE_ROOT; };
 		837079772734EF6A006EE46E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		837079792734F5FB006EE46E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8370797B2734F8B8006EE46E /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		8370797D2734F915006EE46E /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		8370797F2735079D006EE46E /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		83707981273507AC006EE46E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +64,17 @@
 		837079672734EDE9006EE46E /* Learn by Doing */ = {
 			isa = PBXGroup;
 			children = (
+				8370797F2735079D006EE46E /* sound-chime.mp3 */,
 				837079762734EF29006EE46E /* Learn-by-Doing-Info.plist */,
 				837079682734EDE9006EE46E /* Learn_by_DoingApp.swift */,
 				8370796A2734EDE9006EE46E /* ContentView.swift */,
 				8370796C2734EDE9006EE46E /* Assets.xcassets */,
 				8370796E2734EDE9006EE46E /* Preview Content */,
 				837079772734EF6A006EE46E /* LaunchScreen.storyboard */,
+				837079792734F5FB006EE46E /* CardView.swift */,
+				8370797B2734F8B8006EE46E /* CardModel.swift */,
+				8370797D2734F915006EE46E /* CardData.swift */,
+				83707981273507AC006EE46E /* PlaySound.swift */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -131,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				837079782734EF6A006EE46E /* LaunchScreen.storyboard in Resources */,
+				837079802735079D006EE46E /* sound-chime.mp3 in Resources */,
 				837079702734EDE9006EE46E /* Preview Assets.xcassets in Resources */,
 				8370796D2734EDE9006EE46E /* Assets.xcassets in Resources */,
 			);
@@ -143,7 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8370797E2734F915006EE46E /* CardData.swift in Sources */,
+				83707982273507AC006EE46E /* PlaySound.swift in Sources */,
 				8370796B2734EDE9006EE46E /* ContentView.swift in Sources */,
+				8370797C2734F8B8006EE46E /* CardModel.swift in Sources */,
+				8370797A2734F5FB006EE46E /* CardView.swift in Sources */,
 				837079692734EDE9006EE46E /* Learn_by_DoingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
