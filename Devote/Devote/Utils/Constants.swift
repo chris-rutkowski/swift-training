@@ -1,0 +1,22 @@
+//
+//  Constants.swift
+//  Devote
+//
+//  Created by Chris on 04/11/2021.
+//
+
+import Foundation
+import SwiftUI
+
+let itemFormatter: DateFormatter = {
+    let formatter = DateFormatter()
+    formatter.dateStyle = .short
+    formatter.timeStyle = .medium
+    return formatter
+}()
+
+var backgroundGradient: LinearGradient {
+    LinearGradient(gradient: Gradient(colors: [Color.pink, Color.blue]), startPoint: .topLeading, endPoint: .bottomTrailing)
+}
+
+let feedback = UINotificationFeedbackGenerator()

@@ -16,6 +16,14 @@
 		83A7E1392733C4C30021F798 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83A7E1362733C4C30021F798 /* sound-rise.mp3 */; };
 		83A7E13A2733C4C30021F798 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83A7E1372733C4C30021F798 /* sound-ding.mp3 */; };
 		83A7E13B2733C4C30021F798 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83A7E1382733C4C30021F798 /* sound-tap.mp3 */; };
+		83A7E1462733DBD30021F798 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E1452733DBD30021F798 /* Constants.swift */; };
+		83A7E1482733DFDB0021F798 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E1472733DFDB0021F798 /* HideKeyboardExtension.swift */; };
+		83A7E14A2733E1EB0021F798 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E1492733E1EB0021F798 /* BackgroundImageView.swift */; };
+		83A7E14C2733E2AD0021F798 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E14B2733E2AD0021F798 /* NewTaskItemView.swift */; };
+		83A7E14E2733E57A0021F798 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E14D2733E57A0021F798 /* BlankView.swift */; };
+		83A7E1502734E2BB0021F798 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E14F2734E2BB0021F798 /* ListRowItemView.swift */; };
+		83A7E1522734E3F60021F798 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E1512734E3F60021F798 /* CheckboxStyle.swift */; };
+		83A7E1542734EA6C0021F798 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7E1532734EA6C0021F798 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +38,14 @@
 		83A7E1372733C4C30021F798 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		83A7E1382733C4C30021F798 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		83A7E1402733C5550021F798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		83A7E1452733DBD30021F798 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		83A7E1472733DFDB0021F798 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		83A7E1492733E1EB0021F798 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		83A7E14B2733E2AD0021F798 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		83A7E14D2733E57A0021F798 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		83A7E14F2734E2BB0021F798 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		83A7E1512734E3F60021F798 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		83A7E1532734EA6C0021F798 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +78,9 @@
 		83A7E1212733C4580021F798 /* Devote */ = {
 			isa = PBXGroup;
 			children = (
-				83A7E1402733C5550021F798 /* Info.plist */,
 				83A7E1262733C4590021F798 /* Assets.xcassets */,
 				83A7E1222733C4580021F798 /* DevoteApp.swift */,
+				83A7E1402733C5550021F798 /* Info.plist */,
 				83A7E13F2733C4F20021F798 /* Model */,
 				83A7E1282733C4590021F798 /* Preview Content */,
 				83A7E1352733C4C30021F798 /* Sounds */,
@@ -96,7 +112,11 @@
 		83A7E13C2733C4DB0021F798 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				83A7E1492733E1EB0021F798 /* BackgroundImageView.swift */,
 				83A7E1242733C4580021F798 /* ContentView.swift */,
+				83A7E14B2733E2AD0021F798 /* NewTaskItemView.swift */,
+				83A7E14D2733E57A0021F798 /* BlankView.swift */,
+				83A7E14F2734E2BB0021F798 /* ListRowItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +124,9 @@
 		83A7E13D2733C4E20021F798 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				83A7E1452733DBD30021F798 /* Constants.swift */,
+				83A7E1472733DFDB0021F798 /* HideKeyboardExtension.swift */,
+				83A7E1532734EA6C0021F798 /* SoundPlayer.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -111,6 +134,7 @@
 		83A7E13E2733C4E60021F798 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				83A7E1512734E3F60021F798 /* CheckboxStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -197,10 +221,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A7E1462733DBD30021F798 /* Constants.swift in Sources */,
+				83A7E14A2733E1EB0021F798 /* BackgroundImageView.swift in Sources */,
 				83A7E12C2733C4590021F798 /* Persistence.swift in Sources */,
+				83A7E1482733DFDB0021F798 /* HideKeyboardExtension.swift in Sources */,
+				83A7E14E2733E57A0021F798 /* BlankView.swift in Sources */,
 				83A7E1252733C4580021F798 /* ContentView.swift in Sources */,
+				83A7E1502734E2BB0021F798 /* ListRowItemView.swift in Sources */,
 				83A7E12F2733C4590021F798 /* Devote.xcdatamodeld in Sources */,
 				83A7E1232733C4580021F798 /* DevoteApp.swift in Sources */,
+				83A7E1522734E3F60021F798 /* CheckboxStyle.swift in Sources */,
+				83A7E1542734EA6C0021F798 /* SoundPlayer.swift in Sources */,
+				83A7E14C2733E2AD0021F798 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
